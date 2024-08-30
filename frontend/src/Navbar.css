@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: rgb(241, 200, 200);
+  }
+  
+ .navul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+  }
+  
+  .search-container {
+    margin-left: auto; /* Pushes the search input to the right */
+  }
+  
+  .search-container input {
+    width: 20em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+  }
+  

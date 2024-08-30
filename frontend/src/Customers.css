@@ -1,0 +1,94 @@
+/* Ensure the header is centered */
+h1 {
+    text-align: center;
+  }
+  
+  /* Container for the form and customer list */
+  .inventory-container, .customer-container {
+    display: flex;
+    justify-content: left; /* Distribute space between items */
+    gap: 2em; /* Space between the form and customer list */
+    margin: 2em;
+  }
+  
+  /* Styling for the form */
+  .addcustomers, .addinventory {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  /* Styling for the customer list */
+  .customerlist, .inventorylist {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 15%;
+    height: max-content;
+    
+  }
+  
+  .csttable, .invtable {
+    background-color: rgb(233, 173, 94);
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 10px;
+    height: max-content;
+    padding: 6px;
+    list-style: none;
+    width: 100%;
+  }
+  /* Styling for input fields */
+  .cstform, .invform {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width of the form container */
+    max-width: 400px; /* Optional: constrain width for better appearance */
+    height: 1.5em;
+    font-size: larger;
+  }
+  
+  /* Styling for the submit button */
+  .cstbtn, .invbtn {
+    color: white;
+    cursor: pointer;
+    border: none;
+    height: 2rem;
+    width: auto;
+    margin-top: 2em;
+    margin-left: 8px;
+    border-radius: 5px;
+  }
+  
+  #addcst, #addinv {
+    background-color: rgb(63, 170, 63);
+  }
+  #updcst, #updinv {
+    background-color: rgb(255, 139, 44);
+  }
+  #delcst, #delinv {
+    background-color: rgb(255, 49, 49);
+  }
+  
+
+  .action-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-left: 70%;
+
+  }
+  .alldel {
+    border-radius: 5px;
+    background-color: rgb(186, 231, 60);
+  }
+  .csttable th, .csttable td ,.invtable th, .invtable td {
+    padding: 10px;
+  }
+  
+  .csttable th input[type="checkbox"], .csttable td input[type="checkbox"], .invtable th input[type="checkbox"] , .invtable td input[type="checkbox"]{
+    cursor: pointer;
+  }
+  
+
+  
